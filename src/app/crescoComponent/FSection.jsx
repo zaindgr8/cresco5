@@ -34,7 +34,7 @@ const FSection = () => {
               </div>
               <h1 className=" text-white  font-bold  text-5xl ">
                 <span >
-                  Unlock the Door <br /> To Your Dream Home
+                  Unlock the Doors <br /> To Your Dream Home
                 </span>
               </h1>
               <h2 className="text-white text-2xl"></h2>
