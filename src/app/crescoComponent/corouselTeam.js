@@ -49,14 +49,14 @@ const Carousel = () => {
       <div className="team-member">
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[65vh] overflow-hidden">
-            <Image 
-            layout="responsive" 
+            <Image
+              layout="responsive"
               src="/assets/img/avatar/1.jpg"
               className=" object-cover"
               alt=""
-width={100}
-height={100}
- loading="eager"
+              width={100}
+              height={100}
+              loading="eager"
             />
           </div>
         </div>
@@ -65,7 +65,7 @@ height={100}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
             <Link href="/">
-              <span >Mohammad Azam Tariq</span>
+              <span>Mohammad Azam Tariq</span>
             </Link>
           </h5>
           <div className="flex items-center gap-x-2">
@@ -85,14 +85,14 @@ height={100}
       <div className="team-member">
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[65vh] overflow-hidden">
-            <Image 
-            layout="responsive" 
+            <Image
+              layout="responsive"
               src="/assets/img/avatar/2.jpg"
               className=" object-cover  "
               alt=""
               width={100}
               height={100}
-               loading="eager"
+              loading="eager"
             />
           </div>
         </div>
@@ -100,7 +100,7 @@ height={100}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
             <Link href="/">
-              <span >Sabrine Touati</span>
+              <span>Sabrine Touati</span>
             </Link>
           </h5>
           <div className="flex items-center gap-x-2">
@@ -116,20 +116,20 @@ height={100}
       </div>
       {/* /.End Grid Post */}
       {/* Start Grid Post */}
-     
+
       {/* /.End Grid Post */}
       {/* Start Grid Post */}
       <div className="team-member">
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[65vh] overflow-hidden">
-            <Image 
-            layout="responsive" 
+            <Image
+              layout="responsive"
               src="/assets/img/avatar/5.jpg"
               className=" object-cover"
               alt=""
               width={100}
               height={100}
-               loading="eager"
+              loading="eager"
             />
           </div>
         </div>
@@ -137,7 +137,7 @@ height={100}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
             <Link href="/">
-              <span >Waleed Khan</span>
+              <span>Waleed Khan</span>
             </Link>
           </h5>
           <div className="flex items-center gap-x-2">
@@ -156,15 +156,14 @@ height={100}
       <div className="team-member">
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[65vh] overflow-hidden">
-            <Image 
-            layout="responsive" 
-
+            <Image
+              layout="responsive"
               src="/assets/img/avatar/6.jpg"
               className=" object-cover"
               alt=""
               width={100}
               height={100}
-               loading="eager"
+              loading="eager"
             />
           </div>
         </div>
@@ -172,7 +171,7 @@ height={100}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
             <Link href="/">
-              <span >Doua Reina</span>
+              <span>Doua Reina</span>
             </Link>
           </h5>
           <div className="flex items-center gap-x-2">
@@ -192,14 +191,14 @@ height={100}
       <div className="team-member">
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[65vh] overflow-hidden">
-            <Image 
-            layout="responsive" 
+            <Image
+              layout="responsive"
               src="/assets/img/avatar/7.jpg"
               className=" object-cover"
               alt=""
               width={100}
               height={100}
-               loading="eager"
+              loading="eager"
             />
           </div>
         </div>
@@ -207,7 +206,7 @@ height={100}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
             <Link href="/">
-              <span >Osama Khalifa</span>
+              <span>Osama Khalifa</span>
             </Link>
           </h5>
           <div className="flex items-center gap-x-2">
@@ -226,8 +225,8 @@ height={100}
       <div className="team-member">
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[65vh] overflow-hidden">
-            <Image 
-            layout="responsive" 
+            <Image
+              layout="responsive"
               src="/assets/img/avatar/8.jpg"
               className=" object-cover "
               alt=""
@@ -241,7 +240,7 @@ height={100}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
             <Link href="/">
-              <span >Shifa</span>
+              <span>Shifa</span>
             </Link>
           </h5>
           <div className="flex items-center gap-x-2">
@@ -256,11 +255,11 @@ height={100}
         {/* /.End Avatar Info */}
       </div>
       {/* /.End Grid Post */}
-      {/* <div className="team-member">
+      <div className="team-member">
         <div className="member-header overflow-hidden position-relative rounded-4">
           <div className="w-full h-[65vh] overflow-hidden">
             <img
-              src="assets/img/avatar/gulraiz.jpg"
+              src="assets/img/avatar/achref.jpeg"
               className=" "
               alt="Gulraiz"
             />
@@ -269,7 +268,7 @@ height={100}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
             <Link href="/">
-              <span >Gulraiz</span>
+              <span>Achref</span>
             </Link>
           </h5>
           <div className="flex items-center gap-x-2">
@@ -278,10 +277,10 @@ height={100}
           </div>
           <div className="text-sm flex gap-x-2 items-center">
             <FaPhone />
-            +971123456789
+            +971 58 138 4010
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* <div className="team-member">
         <div className="member-header overflow-hidden position-relative rounded-4">
