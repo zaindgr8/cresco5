@@ -41,11 +41,10 @@ export default function Header() {
       >
         <div className="container-lg mt-5 nav-container position-absolute hidden md:block lg:block ">
           <nav className="custom-navbar justify-center  navbar-expand-lg ml-16">
-           
             <div>
-            <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-center h-20 bg-gray-900">
-            <ul className="flex items-center justify-center gap-x-5">
-                  <li >
+              <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-center h-20 bg-gray-900">
+                <ul className="flex items-center justify-center gap-x-5">
+                  <li>
                     <Link
                       className="text-xl text-white hover:text-yellow-500"
                       href="/"
@@ -54,7 +53,7 @@ export default function Header() {
                       Home
                     </Link>
                   </li>
-                  <li >
+                  <li>
                     <Link
                       className="text-xl text-white hover:text-yellow-500"
                       href="/about"
@@ -62,7 +61,7 @@ export default function Header() {
                       Who We Are
                     </Link>
                   </li>
-                  <li >
+                  <li>
                     <Link
                       className="text-xl text-white hover:text-yellow-500"
                       href="/#teamwork"
@@ -73,31 +72,32 @@ export default function Header() {
                   <li>
                     <Link className="navbar-brand pe-3 pe-sm-4 py-0" href="/">
                       <Image
-                        
                         className="logo-dark"
                         src="/assets/img/logo2.png"
                         alt="logo-white"
-                        width={100} height={50}
-                         loading="eager"
+                        width={100}
+                        height={50}
+                        loading="eager"
                       />
                       <Image
                         className="logo-white"
                         src="/assets/img/logo2.png"
                         alt="logo-white"
-                        width={100} height={50}
-                         loading="eager"
+                        width={100}
+                        height={50}
+                        loading="eager"
                       />
                     </Link>
                   </li>
-                  <li >
+                  <li>
                     <Link
                       className="text-white text-xl hover:text-yellow-500"
-                      href="/properties-list"
+                      href="/#properties-list"
                     >
                       Properties
                     </Link>
                   </li>
-                  <li >
+                  <li>
                     <Link
                       className="text-white text-xl hover:text-yellow-500"
                       href="/#projects"
@@ -105,7 +105,7 @@ export default function Header() {
                       Projects
                     </Link>
                   </li>
-                  <li >
+                  <li>
                     <Link
                       className="text-xl text-white hover:text-yellow-500"
                       href="/contact"
@@ -119,20 +119,19 @@ export default function Header() {
           </nav>
         </div>
         <div className="md:hidden  lg:hidden flex absolute bg-white rounded-md m-2 p-2 w-[95%]  justify-between items-end">
-        <div className="  ">
-                <Link className="navbar-brand " href="/">
-                  <Image
-                     width={100} height={50}
-                    
-                    className="logo-dark "
-                    src="/assets/img/logo2.png"
-                    alt=""
-                     loading="eager"
-                  />
-                </Link>
-              </div>
+          <div className="  ">
+            <Link className="navbar-brand " href="/">
+              <Image
+                width={100}
+                height={50}
+                className="logo-dark "
+                src="/assets/img/logo2.png"
+                alt=""
+                loading="eager"
+              />
+            </Link>
+          </div>
           <div>
-
             <span onClick={toggleMenu}>
               <FiMenu size={40} />
             </span>
@@ -145,11 +144,12 @@ export default function Header() {
               <div className="pt-2 px-2 ">
                 <Link className="navbar-brand " href="/">
                   <Image
-                   width={100} height={50}
+                    width={100}
+                    height={50}
                     className="logo-dark"
                     src="/assets/img/logo2.png"
                     alt=""
-                     loading="eager"
+                    loading="eager"
                   />
                 </Link>
               </div>
@@ -162,16 +162,16 @@ export default function Header() {
 
             <div className="flex flex-col  gap-6  text-xl font-semibold hover:text-black text-gray-600">
               <ul className="flex flex-col  gap-6 px-10 p-6  ">
-                <li >
+                <li>
                   <Link
                     className="text-xl  text-black hover:text-yellow-500"
-                    href="#"
+                    href="/"
                     role="button"
                   >
                     Home
                   </Link>
                 </li>
-                <li >
+                <li>
                   <Link
                     className="text-xl  text-black hover:text-yellow-500"
                     href="/about"
@@ -179,7 +179,7 @@ export default function Header() {
                     Who We Are
                   </Link>
                 </li>
-                <li >
+                <li>
                   <Link
                     className="text-xl  text-black hover:text-yellow-500"
                     href="/#teamwork"
@@ -188,15 +188,15 @@ export default function Header() {
                   </Link>
                 </li>
 
-                <li >
+                <li>
                   <Link
                     className=" text-black text-xl hover:text-yellow-500"
-                    href="/properties-list"
+                    href="/#properties-list"
                   >
                     Properties
                   </Link>
                 </li>
-                <li >
+                <li>
                   <Link
                     className=" text-black text-xl hover:text-yellow-500"
                     href="/#projects"
@@ -204,7 +204,7 @@ export default function Header() {
                     Projects
                   </Link>
                 </li>
-                <li >
+                <li>
                   <Link
                     className="text-xl  text-black hover:text-yellow-500"
                     href="/contact"

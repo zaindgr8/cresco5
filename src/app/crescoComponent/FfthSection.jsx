@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const FfthSection = () => {
   return (
-    <div className="py-5 bg-gradient-primary">
+    <div id="properties-list" className="py-5 bg-gradient-primary">
       <div className="container pt-5 pb-4">
         <div className="row">
           <div className="col-md-10 offset-md-1" data-aos="fade-down">
