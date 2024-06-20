@@ -4,10 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-// import localFont from "next/font/local";
-
-// const stroma = localFont({ src: "./fonts/Stroma-Regular.ttf" });
-
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 export default function Header() {
@@ -122,8 +118,8 @@ export default function Header() {
           <div className="  ">
             <Link className="navbar-brand " href="/">
               <Image
-                width={100}
-                height={50}
+                width={70}
+                height={100}
                 className="logo-dark "
                 src="/assets/img/logo2.png"
                 alt=""
