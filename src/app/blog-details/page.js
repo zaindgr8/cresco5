@@ -9,23 +9,26 @@ export default function BlogDetails() {
       <div
         className="blog-header position-relative text-white"
       >
-      <img src="assets/img/blog/banner.jpg" alt="" className="h-100 object-fit-cover position-absolute w-100 top-0 left-0"/>
+      <img src="assets/img/blog/0.jpg" alt="" className="h-100  object-cover position-absolute w-100 top-0 left-0"/>
         <div className="container position-relative z-1">
           <div className="row justify-content-center">
             <div className="col-lg-10 col-xl-8 text-center">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-17 gap-2 hstack justify-content-center mb-1 text-capitalize">
-                <div className="text-white fw-medium">Renovation</div>
-                <span className="vr" />
-                <div>jun 23, 2023</div>
+                <div className="text-white fw-medium">Azizi Venice
+                </div>
+                {/* <span className="vr" />
+                <div>jun 23, 2023</div> */}
               </div>
               {/* /.End Meta Info */}
               <h1 className="fw-semibold display-4 text-white">
-                Contrary to popular belief, Lorem Ipsum is not simply random.
+               
+Discover the Charm of Venice in the Heart of Dubai
+
               </h1>
               {/* /.End of header title */}
               {/* Start Author Info */}
-              <ul className="authar-info d-flex flex-wrap fs-17 gap-3 justify-content-center list-unstyled m-0 text-capitalize mt-4">
+              {/* <ul className="authar-info d-flex flex-wrap fs-17 gap-3 justify-content-center list-unstyled m-0 text-capitalize mt-4">
                 <li>
                   <Link href="#" className="text-white">
                     <i className="fa-solid fa-comment fs-13 me-2" />
@@ -38,7 +41,7 @@ export default function BlogDetails() {
                     By Naeem
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
               {/* /.End Author Info */}
             </div>
           </div>
@@ -52,47 +55,16 @@ export default function BlogDetails() {
               <article className="post single-post">
                 <div className="entry-content">
                   <p>
-                    How it is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at its
-                    layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to using
-                    'Content here, content here', making it look like readable
-                    English.
+                  Welcome to Azizi Venice, where luxury living meets Venetian elegance. Located in the vibrant Meydan One district, Azizi Venice brings the timeless beauty of Venice to Dubai. Picture yourself in a community where stunning architecture, tranquil waterways, and a bustling lifestyle blend seamlessly—this is Azizi Venice.
+
                   </p>
-                  <h3>I'm afraid I just blue myself.</h3>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy
-                    text ever since.
-                  </p>
-                  <p>
-                    It has survived not only five centuries, but also the leap into
-                    electronic typesetting, remaining essentially unchanged. It was
-                    popularised in the 1960s with the release of Letraset sheets
-                    containing.
-                  </p>
-                  <p>
-                    Lorem Ipsum passages, and more recently with desktop publishing
-                    software like Aldus PageMaker including versions of Lorem Ipsum.
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text.
-                  </p>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form, by
-                    injected humour, or randomised words which don't look even
-                    slightly believable.
-                  </p>
-                  <p>
-                    IIf you are going to use a passage of Lorem Ipsum, you need to
-                    be sure there isn't anything embarrassing hidden.
-                  </p>
-                  <h2 className="h3">
-                    There's only one man I've ever called a coward
-                  </h2>
+                 
+                  
+                  
+                
                   <figure className="caption aligncenter">
                     <img
-                      src="assets/img/blog/details-01.jpg"
+                      src="assets/img/blog/1.jpg"
                       className="img-fluid rounded-3"
                       alt=""
                     />
@@ -101,142 +73,40 @@ export default function BlogDetails() {
                     </figcaption>
                   </figure>
                   <p>
-                    It is a long established fact that a reader will be distracted
-                    by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less
-                    normal distribution of letters, as opposed to using 'Content
-                    here, content here', making it look like readable English.
+                    
+Azizi Venice is more than just a residential development; it’s a lifestyle destination. Positioned along the beautiful Dubai Water Canal, our development features an array of meticulously designed studios, one, two, and three-bedroom apartments. Each home is crafted with modern aesthetics and high-quality finishes, ensuring you experience the best of both style and comfort.
+
                   </p>
                   <p>
-                    Many desktop publishing packages and web page editors now use.
+                  Our architecture takes inspiration from Venice's iconic charm(Venice,a city of France) with its elegant designs and picturesque canals creating a unique and serene environment. Whether you’re taking in the views of the Dubai skyline, the calm canal, or the majestic Meydan Racecourse, every moment at Azizi Venice is a feast for the senses.
+
                   </p>
                   <p>
-                    There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form, by
-                    injected humour, or randomised words which don't look even
-                    slightly believable. If you are going to use a passage of Lorem
-                    Ipsum, you need to be sure there isn't anything embarrassing
-                    hidden in the middle of text.
+                  Azizi Venice is located in South Dubai right next to Al Maktoum International airport, which is good for people who like connectivity and ease of access to other facilities and services. It is a waterfront community. You will find a combination of villas, mansions and apartments.
+
                   </p>
                   <p>
-                    All the Lorem Ipsum generators on the Internet tend to repeat
-                    predefined chunks as necessary, making this the first true
-                    generator on the Internet
+                    
+This is AED 30 billion project which is estimated to be completed in 2026. It comprised of 100 mid size apartment buildings, 69 waterfront apartments and 261 waterfront villas. You will find come across 18 km lagoon with a depth of 1.5 meter with waterfront lifestyle. The lagoon features Sweetwater and artificial waves, making the lagoon as sea right at the doorstep of residents, to give them see like feelings. It is attractive for residents visitors and tourists alike.
+
                   </p>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form.
-                  </p>
-                  <blockquote className="blockquote quote-text alignleft">
+                  
+                  {/* <blockquote className="blockquote quote-text alignleft">
                     <p className="fst-italic mb-0">“Stay hungry, stay foolish.”</p>
                     <cite className="fs-14 fw-semibold quote-attribution text-dark">
                       — John Doe Molicere
                     </cite>
-                  </blockquote>
+                  </blockquote> */}
                   {/* /.End of blockquote */}
-                  <p>
-                    Many desktop publishing packages and web page editors now use
-                    Lorem Ipsum as their default model text, and a search for 'lorem
-                    ipsum' will uncover many web sites still in their infancy.
-                  </p>
-                  <p>
-                    It was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more recently with
-                    desktop publishing software like Aldus PageMaker including
-                    versions of Lorem Ipsum.
-                  </p>
-                  <p>
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature from
-                    45 BC, making it over 2000 years old.
-                  </p>
-                  <p>
-                    <img
-                      src="assets/img/blog/details-02.jpg"
-                      alt="Image"
-                      className="alignright img-fluid rounded-3"
-                    />
-                    Richard McClintock, a Latin professor at Hampden-Sydney College
-                    in Virginia, looked up one of the more obscure Latin words,
-                    consectetur, from a Lorem Ipsum passage, and going through the
-                    cites of the word in classical literature, discovered the
-                    undoubtable source.
-                  </p>
-                  <p>
-                    very popular during the Renaissance. The first line of Lorem
-                    Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
-                    section 1.10.32.
-                  </p>
-                  <p>
-                    The standard chunk of Lorem Ipsum used since the 1500s is
-                    reproduced below for those interested. Sections 1.10.32 and
-                    1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
-                    reproduced in their exact original.
-                  </p>
-                  <p>
-                    All the Lorem Ipsum generators on the Internet tend to repeat
-                    predefined chunks as necessary, making this the first true
-                    generator on the Internet. It uses a dictionary of over 200
-                    Latin words, combined with a handful of model sentence
-                    structures, to generate Lorem Ipsum which looks reasonable.
-                  </p>
-                  <p>
-                    The generated Lorem Ipsum is therefore always free from
-                    repetition, injected humour, or non-characteristic words etc.
-                  </p>
-                  <h4>Better Readability</h4>
-                  <p>
-                    Various versions have evolved over the years, sometimes by
-                    accident, sometimes on purpose (injected humour and the like).
-                    Therefore always free from repetition, injected humour, or
-                    non-characteristic words etc.
-                  </p>
-                  <p>
-                    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
-                    Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
-                    Cicero, written in 45 BC. This book is a treatise on the theory
-                    of ethics, very popular during the Renaissance. The first line
-                    of Lorem Ipsum, "Lorem ipsum dolor sit amet..".
-                  </p>
-                  <p>
-                    It has survived not only five centuries, but also the leap into
-                    electronic typesetting, remaining essentially unchanged. It was
-                    popularised in the 1960s with the release of Letraset sheets
-                    containing Lorem Ipsum passages.
-                  </p>
-                  <p>
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature from
-                    45 BC, making it over 2000 years old. Richard McClintock, a
-                    Latin professor at Hampden-Sydney College in Virginia, looked up
-                    one of the more obscure Latin words, consectetur, from a Lorem
-                    Ipsum passage.
-                  </p>
+                  
+                  
+                  
+                  
+                 
+                  
                 </div>
                 {/* /.End of entry content */}
-                <div className="post-tags tagcloud my-4">
-                  <Link
-                    href="#"
-                    rel="tag"
-                    className="text-muted fs-13 d-inline-block mr-1 mb-1"
-                  >
-                    travel
-                  </Link>
-                  <Link
-                    href="#"
-                    rel="tag"
-                    className="text-muted fs-13 d-inline-block mr-1 mb-1"
-                  >
-                    earth
-                  </Link>
-                  <Link
-                    href="#"
-                    rel="tag"
-                    className="text-muted fs-13 d-inline-block mr-1 mb-1"
-                  >
-                    think
-                  </Link>
-                </div>
+                
                 {/* /.End of post tags */}
               </article>
             </div>
