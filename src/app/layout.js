@@ -5,7 +5,7 @@ import { Inter_Tight } from 'next/font/google'
 import { AOSInit } from './aoshook/aoshook';
 import ImportBs from './importBs';
 import localFont from "next/font/local"
-import Header from '@/components/Header';
+import Header from '../components/Header';
 import { Open_Sans, Roboto_Mono } from "next/font/google";
 
 const openSans = Open_Sans({

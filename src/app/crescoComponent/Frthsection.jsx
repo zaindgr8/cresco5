@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
-import Regions from "@/components/Regions";
-import SectionHeader from "@/components/section-header";
+import Regions from "../../components/Regions";
+import SectionHeader from "../../components/section-header";
 
 const Frthsection = () => {
   
