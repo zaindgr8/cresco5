@@ -41,7 +41,7 @@ const Carousel = () => {
             <div className="post grid-post" data-aos="fade" data-aos-delay={300}>
                 <div className="grid-post__thumb position-relative">
                     <Link
-                        href="blog-details"
+                        href="Azizi-Venice"
                         className="align-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
                     >
                         <figure className="w-100 m-0">
@@ -137,7 +137,7 @@ const Carousel = () => {
             <div className="post grid-post" data-aos="fade" data-aos-delay={600}>
                 <div className="grid-post__thumb position-relative">
                     <Link
-                        href="blog-details"
+                        href="Azizi-Venice"
                         className="align-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
                     >
                         <figure className="w-100 m-0">

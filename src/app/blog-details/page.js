@@ -1,5 +1,5 @@
-import Layout from "@/components/Layout";
-import Carousel from "@/components/corousel";
+import Layout from "../../components/Layout";
+import Carousel from "../../components/corousel";
 import Link from "next/link";
 
 export default function BlogDetails() {
@@ -26,22 +26,7 @@ export default function BlogDetails() {
 Discover the Charm of Venice in the Heart of Dubai
 
               </h1>
-              {/* /.End of header title */}
-              {/* Start Author Info */}
-              {/* <ul className="authar-info d-flex flex-wrap fs-17 gap-3 justify-content-center list-unstyled m-0 text-capitalize mt-4">
-                <li>
-                  <Link href="#" className="text-white">
-                    <i className="fa-solid fa-comment fs-13 me-2" />
-                    189 Comment
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-white">
-                    <i className="fa-solid fa-user fs-13 me-2" />
-                    By Naeem
-                  </Link>
-                </li>
-              </ul> */}
+             
               {/* /.End Author Info */}
             </div>
           </div>
