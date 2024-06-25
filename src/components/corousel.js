@@ -90,7 +90,7 @@ const Carousel = () => {
                     data-aos-delay={400}
                 >
                     <Link
-                        href="blog-details"
+                        href="Azizi-revera"
                         className="align-items-center d-flex justify-content-center overflow-hidden position-relative rounded-3 thumb-overlay"
                     >
                         <figure className="w-100 m-0">
@@ -121,8 +121,8 @@ const Carousel = () => {
                         {/* /.End Meta Info */}
                         {/* Start Post Title */}
                         <h5 className="post-title fw-semibold fs-19 mb-3">
-                            <Link href="#">
-                            Discover Azizi Venice: A Community Beyond Luxury
+                            <Link href="Azizi-revera">
+                            Discover Luxurious Living in Dubai's Premier Residential Community
                             </Link>
                         </h5>
                         {/* /.End Post Title */}
