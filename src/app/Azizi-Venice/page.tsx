@@ -61,7 +61,7 @@ export default function AziziVenice() {
                     This AED 30 billion project is estimated to be completed in 2026. It comprises 100 mid-size apartment buildings, 69 waterfront apartments, and 261 waterfront villas. You will find an 18 km lagoon with a depth of 1.5 meters, featuring Sweetwater and artificial waves, making the lagoon feel like the sea right at the doorstep of residents. It is attractive for residents, visitors, and tourists alike.
                   </p>
 
-                  <h2 className="text-center pt-2 text-xl">Unparalleled Amenities</h2>
+                  <h2 className=" pt-2 text-xl">Unparalleled Amenities</h2>
                   <figure className="caption aligncenter">
                     <img
                       src="assets/img/blog/2.jpg"
@@ -92,7 +92,7 @@ export default function AziziVenice() {
                     <li><strong>Business Bay:</strong> Stay close to one of Dubai’s major commercial districts.</li>
                     <li><strong>Dubai International Airport:</strong> Travel effortlessly with easy access to the airport.</li>
                   </ul>
-                  <h2 className="text-center pt-2 text-xl">A Community with Heart</h2>
+                  <h2 className=" pt-2 text-xl">A Community with Heart</h2>
                   <figure className="caption aligncenter">
                     <img
                       src="assets/img/blog/3.jpg"
@@ -110,7 +110,7 @@ export default function AziziVenice() {
                     Azizi Venice also has a 1,500-seat multi-purpose cultural center or opera house, which will be Dubai's second opera house. Wedding ceremonies, comedy shows, theater performances, concerts, and many other events will be hosted here.
                   </p>
 
-                  <h2 className="text-center pt-2 text-xl">Investment Opportunities</h2>
+                  <h2 className=" pt-2 text-xl">Investment Opportunities</h2>
                   <figure className="caption aligncenter">
                     <img
                       src="assets/img/blog/4.jpg"
