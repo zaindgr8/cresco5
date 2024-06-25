@@ -1,6 +1,9 @@
+
 import Layout from "../layout";
 
 export default function AziziVenice() {
+ 
+
   return (
     <Layout>
       <div className="blog-header position-relative text-white">
@@ -29,9 +32,8 @@ export default function AziziVenice() {
             <div className="col-xl-10 col-xxl-8">
               <article className="post single-post">
                 <div className="entry-content">
-                  <h2>Welcome to Azizi Venice</h2>
                   <p>
-                    Welcome to <strong>Azizi Venice</strong>, where luxury living meets Venetian elegance. Located in the vibrant Meydan One district, Azizi Venice brings the timeless beauty of Venice to Dubai. Picture yourself in a community where stunning architecture, tranquil waterways, and a bustling lifestyle blend seamlessly—this is Azizi Venice.
+                    Welcome to Azizi Venice, where luxury living meets Venetian elegance. Located in the vibrant Meydan One district, Azizi Venice brings the timeless beauty of Venice to Dubai. Picture yourself in a community where stunning architecture, tranquil waterways, and a bustling lifestyle blend seamlessly—this is Azizi Venice.
                   </p>
 
                   <figure className="caption aligncenter">
@@ -59,7 +61,7 @@ export default function AziziVenice() {
                     This AED 30 billion project is estimated to be completed in 2026. It comprises 100 mid-size apartment buildings, 69 waterfront apartments, and 261 waterfront villas. You will find an 18 km lagoon with a depth of 1.5 meters, featuring Sweetwater and artificial waves, making the lagoon feel like the sea right at the doorstep of residents. It is attractive for residents, visitors, and tourists alike.
                   </p>
 
-                  <h2 className=" text-center pt-2  text-xl">Unparalleled Amenities</h2>
+                  <h2 className="text-center pt-2 text-xl">Unparalleled Amenities</h2>
                   <figure className="caption aligncenter">
                     <img
                       src="assets/img/blog/2.jpg"
@@ -90,7 +92,7 @@ export default function AziziVenice() {
                     <li><strong>Business Bay:</strong> Stay close to one of Dubai’s major commercial districts.</li>
                     <li><strong>Dubai International Airport:</strong> Travel effortlessly with easy access to the airport.</li>
                   </ul>
-                  <h2 className=" text-center pt-2 text-xl">A Community with Heart</h2>
+                  <h2 className="text-center pt-2 text-xl">A Community with Heart</h2>
                   <figure className="caption aligncenter">
                     <img
                       src="assets/img/blog/3.jpg"
@@ -108,12 +110,12 @@ export default function AziziVenice() {
                     Azizi Venice also has a 1,500-seat multi-purpose cultural center or opera house, which will be Dubai's second opera house. Wedding ceremonies, comedy shows, theater performances, concerts, and many other events will be hosted here.
                   </p>
 
-                  <h2 className=" text-center pt-2  text-xl">Investment Opportunities</h2>
+                  <h2 className="text-center pt-2 text-xl">Investment Opportunities</h2>
                   <figure className="caption aligncenter">
                     <img
-                     src="assets/img/blog/4.jpg"
+                      src="assets/img/blog/4.jpg"
                       className="img-fluid rounded-3"
-                      alt="Azizi Venice amenities"
+                      alt="Azizi Venice investment opportunities"
                     />
                   </figure>
                   <p>
@@ -128,3 +130,4 @@ export default function AziziVenice() {
     </Layout>
   );
 }
+``
