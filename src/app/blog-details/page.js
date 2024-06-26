@@ -52,7 +52,7 @@ export default function BlogDetails() {
                     and commercial properties. It is known for its devotion to
                     quality, prompt delivery, and innovative design.
                   </p>
-                  
+                
                   <figure className="caption aligncenter">
                     <img
                       src="assets/img/blog/details-01.jpg"
