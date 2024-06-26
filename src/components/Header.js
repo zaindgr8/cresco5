@@ -90,12 +90,12 @@ export default function Header() {
                     </Link>
                   </li>
                   <li
-                    onMouseEnter={() => setShowDropdown(true)}
-                    onMouseLeave={() => setShowDropdown(false)}
+                    
+                   
                     className="relative"
                   >
                     <h1
-                      className="text-white text-xl hover:text-yellow-500"
+                      className="text-white text-xl hover:text-yellow-500 cursor-pointer"
                       onClick={toggleDropdown}
                     >
                       Projects
@@ -236,7 +236,15 @@ export default function Header() {
                     Projects
                   </div>
                   {showDropdown && (
-                    <ul className="ml-4">
+                    <ul className="ml-4 space-y-2">
+                       <li>
+                        <Link
+                          className="text-black pt-3 text-xl hover:text-yellow-500"
+                          href="/#projects"
+                        >
+                          Projects
+                        </Link>
+                      </li>
                       <li>
                         <Link
                           className="text-black text-xl hover:text-yellow-500"
