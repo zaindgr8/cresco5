@@ -6,7 +6,7 @@ export default function AziziVenice() {
 
   return (
     <Layout>
-      <div className="blog-header mt-20 position-relative text-white">
+      <div className="blog-header md:mt-20 position-relative text-white">
         <img
           src="assets/img/blog/0.jpg"
           alt="Azizi Venice overview"
@@ -25,7 +25,7 @@ export default function AziziVenice() {
           </div>
         </div>
       </div>
-      {/* <div className="container mx-auto my-10">
+      <div className="container mx-auto my-10">
         <div className="flex flex-col md:flex-row  overflow-hidden">
             <div className="md:w-1/2 h-64 md:h-auto relative">
                 <img src="assets/img/blog/2.jpg" alt="Blog Image" className="absolute inset-0 w-full h-full object-cover object-center transform -translate-x-1/4"/>
@@ -36,7 +36,7 @@ export default function AziziVenice() {
                 <a href="#" className="text-indigo-600 hover:text-indigo-800 font-semibold">Read more</a>
             </div>
         </div>
-    </div> */}
+    </div>
       <div className="py-5">
         <div className="container py-4">
           <div className="row justify-content-center">
