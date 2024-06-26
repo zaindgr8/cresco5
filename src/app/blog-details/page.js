@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import Carousel from "@/components/corousel";
 import Link from "next/link";
+import Corousal from "../crescoComponent/corousalProjects"
 
 export default function BlogDetails() {
   return (
@@ -8,7 +9,7 @@ export default function BlogDetails() {
       {/* Start Page Header */}
       <div className="blog-header position-relative text-white">
         <img
-          src="assets/img/blog/banner.jpg"
+          src="assets/img/azizi/7.jpg"
           alt=""
           className="h-100 object-fit-cover position-absolute w-100 top-0 left-0"
         />
@@ -17,13 +18,15 @@ export default function BlogDetails() {
             <div className="col-lg-10 col-xl-8 text-center">
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-17 gap-2 hstack justify-content-center mb-1 text-capitalize">
-                <div className="text-white fw-medium">Learn More</div>
+                <div className="text-white fw-medium">
+                  thousands of residential and commercial properties delivered
+                </div>
                 <span className="vr" />
-                <div>25 June 2024</div>
+                <div>over 17 years of experience</div>
               </div>
               {/* /.End Meta Info */}
               <h1 className="fw-semibold display-4 text-white">
-                Azizi Developments: Shaping the Skyline of Dubai.
+                AZIZI DEVELOPMENTS
               </h1>
               {/* /.End of header title */}
               {/* Start Author Info */}
@@ -39,9 +42,21 @@ export default function BlogDetails() {
           <div className="row justify-content-center">
             <div className="col-xl-10 col-xxl-8">
               <article className="post single-post">
-                <h className="font-bold text-black text-4xl">About Aziz Developers</h>
+                <div className="row">
+                  <div className="col-md-10 offset-md-1" data-aos="fade-down">
+                    {/* Start Section Header Title */}
+                    <div className="section-header text-center mb-5">
+                      {/* Start Subtitle */}
+                      <div className="bg-[#DAB852] d-inline-block  mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
+                        <span className="font-bold text-xl">ABOUT US</span>
+                      </div>
+                      {/* /. End Subtitle */}
+                    </div>
+                    {/*/. End Section Header */}
+                  </div>
+                </div>
                 <div className="entry-content">
-                  <p className="mt-5">
+                  <p className="mt-2">
                     Mirwais Azizi founded Azizi Developments in 2007 and it has
                     since established itself as Dubai's best real estate
                     developer. His nationality is Afghan. He began his
@@ -52,165 +67,121 @@ export default function BlogDetails() {
                     and commercial properties. It is known for its devotion to
                     quality, prompt delivery, and innovative design.
                   </p>
-                
-                  <figure className="caption aligncenter">
+
+                  <figure className="caption aligncenter w-[500px]">
                     <img
-                      src="assets/img/blog/details-01.jpg"
-                      className="img-fluid rounded-3"
+                      src="assets/img/azizi/owner.jpeg"
+                      className="img-fluid rounded-3 "
                       alt=""
                     />
                     <figcaption className="caption-text fs-11 text-center text-muted text-uppercase mt-2">
-                      Beach at Big Sur, CA
+                      MIRWAIS AZIZI , CHAIRMAN, AZIZI DEVELOPMENTS
                     </figcaption>
                   </figure>
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to
-                    using 'Content here, content here', making it look like
-                    readable English.
-                  </p>
-                  <p>
-                    Many desktop publishing packages and web page editors now
-                    use.
-                  </p>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form, by injected humour, or randomised words which don't
-                    look even slightly believable. If you are going to use a
-                    passage of Lorem Ipsum, you need to be sure there isn't
-                    anything embarrassing hidden in the middle of text.
-                  </p>
-                  <p>
-                    All the Lorem Ipsum generators on the Internet tend to
-                    repeat predefined chunks as necessary, making this the first
-                    true generator on the Internet
-                  </p>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form.
-                  </p>
-                  <blockquote className="blockquote quote-text alignleft">
-                    <p className="fst-italic mb-0">
-                      “Stay hungry, stay foolish.”
-                    </p>
-                    <cite className="fs-14 fw-semibold quote-attribution text-dark">
-                      — John Doe Molicere
-                    </cite>
-                  </blockquote>
-                  {/* /.End of blockquote */}
-                  <p>
-                    Many desktop publishing packages and web page editors now
-                    use Lorem Ipsum as their default model text, and a search
-                    for 'lorem ipsum' will uncover many web sites still in their
-                    infancy.
-                  </p>
-                  <p>
-                    It was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more recently
-                    with desktop publishing software like Aldus PageMaker
-                    including versions of Lorem Ipsum.
-                  </p>
-                  <p>
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature
-                    from 45 BC, making it over 2000 years old.
-                  </p>
-                  <p>
-                    <img
-                      src="assets/img/blog/details-02.jpg"
-                      alt="Image"
-                      className="alignright img-fluid rounded-3"
-                    />
-                    Richard McClintock, a Latin professor at Hampden-Sydney
-                    College in Virginia, looked up one of the more obscure Latin
-                    words, consectetur, from a Lorem Ipsum passage, and going
-                    through the cites of the word in classical literature,
-                    discovered the undoubtable source.
-                  </p>
-                  <p>
-                    very popular during the Renaissance. The first line of Lorem
-                    Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
-                    section 1.10.32.
-                  </p>
-                  <p>
-                    The standard chunk of Lorem Ipsum used since the 1500s is
-                    reproduced below for those interested. Sections 1.10.32 and
-                    1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
-                    also reproduced in their exact original.
-                  </p>
-                  <p>
-                    All the Lorem Ipsum generators on the Internet tend to
-                    repeat predefined chunks as necessary, making this the first
-                    true generator on the Internet. It uses a dictionary of over
-                    200 Latin words, combined with a handful of model sentence
-                    structures, to generate Lorem Ipsum which looks reasonable.
-                  </p>
-                  <p>
-                    The generated Lorem Ipsum is therefore always free from
-                    repetition, injected humour, or non-characteristic words
-                    etc.
-                  </p>
-                  <h4>Better Readability</h4>
-                  <p>
-                    Various versions have evolved over the years, sometimes by
-                    accident, sometimes on purpose (injected humour and the
-                    like). Therefore always free from repetition, injected
-                    humour, or non-characteristic words etc.
-                  </p>
-                  <p>
-                    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
-                    Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
-                    by Cicero, written in 45 BC. This book is a treatise on the
-                    theory of ethics, very popular during the Renaissance. The
-                    first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..".
-                  </p>
-                  <p>
-                    It has survived not only five centuries, but also the leap
-                    into electronic typesetting, remaining essentially
-                    unchanged. It was popularised in the 1960s with the release
-                    of Letraset sheets containing Lorem Ipsum passages.
-                  </p>
-                  <p>
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature
-                    from 45 BC, making it over 2000 years old. Richard
-                    McClintock, a Latin professor at Hampden-Sydney College in
-                    Virginia, looked up one of the more obscure Latin words,
-                    consectetur, from a Lorem Ipsum passage.
-                  </p>
                 </div>
-                {/* /.End of entry content */}
-                <div className="post-tags tagcloud my-4">
-                  <Link
-                    href="#"
-                    rel="tag"
-                    className="text-muted fs-13 d-inline-block mr-1 mb-1"
-                  >
-                    travel
-                  </Link>
-                  <Link
-                    href="#"
-                    rel="tag"
-                    className="text-muted fs-13 d-inline-block mr-1 mb-1"
-                  >
-                    earth
-                  </Link>
-                  <Link
-                    href="#"
-                    rel="tag"
-                    className="text-muted fs-13 d-inline-block mr-1 mb-1"
-                  >
-                    think
-                  </Link>
-                </div>
-                {/* /.End of post tags */}
               </article>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-10 offset-md-1" data-aos="">
+          {/* Start Section Header Title */}
+          <div className="section-header text-center mb-5">
+            {/* Start Subtitle */}
+            <div className="bg-[#DAB852] d-inline-block  mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
+              <span className="font-bold text-xl">OUR VISION</span>
+            </div>
+            {/* /. End Subtitle */}
+          </div>
+          {/*/. End Section Header */}
+        </div>
+      </div>
+      <div className="container mx-auto mb-5">
+        <div className="flex flex-col md:flex-row overflow-hidden">
+          <div className="md:w-1/2 h-64 md:h-auto relative">
+            <img
+              src="/assets/img/azizi/10.jpg" // Assuming assets folder is at root
+              alt="Blog Image"
+              className="responsive-img absolute inset-0 w-full rounded-xl h-full object-cover object-center"
+            />
+          </div>
+          <div className="md:w-1/2 p-6 flex flex-col justify-center">
+            <p className="text-gray-700 mb-4">
+              Mirwais Azizi's mission for Azizi Developments was to design
+              high-quality living environments that met the different needs of
+              Dubai's citizens. The company's strategy is upon improving the
+              lifestyles of its consumers through creative, sustainable
+              development processes and a focus on customer happiness. Over the
+              years, Azizi has grown from a modest startup into a powerhouse in
+              the real estate industry, with projects that epitomize luxury. We
+              have delivered thousands of homes to local and international
+              investors and end users.
+            </p>
+            <ul className="list-checked mb-9 mb-md-10 ps-0 text-gray-800">
+              <li>
+                We have the privilege to build the second highest tall
+                skyscraper in Dubai.
+              </li>
+              <li>
+                Azizi homes are the most sought after homes in Dubai made for
+                residential and commercial purposes.
+              </li>
+              <li>
+                Azizi Developments goes beyond construction, crafting coveted
+                living spaces that cater to the evolving needs of Dubai's
+                residents
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-5">
+        <div className="container pt-5">
+          <div className="row">
+            <div className="col-md-10 offset-md-1">
+              {/* Start Section Header Title */}
+              <div
+                className="section-header text-center mb-5"
+                data-aos=""
+              >
+                {/* Start Subtitle */}
+                <div className="row">
+                  <div className="col-md-10 offset-md-1" data-aos="">
+                    {/* Start Section Header Title */}
+                    <div className="section-header text-center mb-3">
+                      {/* Start Subtitle */}
+                      <div className="bg-[#DAB852] d-inline-block rounded-pill section-header__subtitle text-capitalize text-gray-900">
+                        <span className="font-bold text-xl">
+                          OUR KEY PROJECTS
+                        </span>
+                      </div>
+                      {/* /. End Subtitle */}
+                    </div>
+                    {/*/. End Section Header */}
+                  </div>
+                </div>
+
+                <div className="sub-title fs-16">
+                  <p>
+                    Azizi Developments boasts an extensive portfolio of projects
+                    across prime locations in Dubai, <br/>including Al Furjan, Palm
+                    Jumeirah, Dubai Healthcare City, and Meydan. Some standout
+                    projects include:
+                  </p>
+                </div>
+                {/* /.End Section Header Sub Title */}
+              </div>
+              {/*/. End Section Header */}
+            </div>
+          </div>
+
+          <Corousal />
+
+          {/* Start Button */}
+
+          {/* /.End Button */}
         </div>
       </div>
       {/* Start Articles Section */}
