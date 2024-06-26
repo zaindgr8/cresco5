@@ -49,7 +49,7 @@ export default function AziziRevera() {
                 <a href="#" className="text-[#DAB852]  font-semibold">Read more</a>
             </div>
             <div className="md:w-1/2 h-64 md:h-auto relative">
-                <img src="assets/img/blog/2.jpg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform translate-x-1/4"/>
+                <img src="assets/img/blog/0.jpg" alt="Blog Image" className="absolute object-cover inset-0 w-full rounded-xl h-full object-center transform translate-x-1/4"/>
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@ export default function AziziRevera() {
     <div className="container mx-auto my-10">
         <div className="flex flex-col md:flex-row overflow-hidden">
             <div className="md:w-1/2 h-64 md:h-auto relative">
-                <img src="assets/img/blog/2.jpg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform -translate-x-1/4"/>
+                <img src="assets/img/blog/prim.jpeg" alt="Blog Image" className="absolute object-cover inset-0  rounded-xl  object-center transform -translate-x-1/4"/>
             </div>
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
                 <h2 className="text-2xl font-bold mb-2">Architecture and Design</h2>
@@ -78,7 +78,7 @@ export default function AziziRevera() {
                 <a href="#" className="text-[#DAB852]  font-semibold">Read more</a>
             </div>
             <div className="md:w-1/2 h-64 md:h-auto relative">
-                <img src="assets/img/blog/2.jpg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform translate-x-1/4"/>
+                <img src="assets/img/blog/1.jpg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform translate-x-1/4"/>
             </div>
         </div>
     </div>
@@ -87,7 +87,7 @@ export default function AziziRevera() {
     <div className="container mx-auto my-10">
         <div className="flex flex-col md:flex-row overflow-hidden">
             <div className="md:w-1/2 h-64 md:h-auto relative">
-                <img src="assets/img/blog/2.jpg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform -translate-x-1/4"/>
+                <img src="assets/img/blog/r.jpeg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform -translate-x-1/4"/>
             </div>
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
                 <h2 className="text-2xl font-bold mb-2">Residential Options</h2>
@@ -105,7 +105,7 @@ export default function AziziRevera() {
                 <a href="#" className="text-[#DAB852]  font-semibold">Read more</a>
             </div>
             <div className="md:w-1/2 h-64 md:h-auto relative">
-                <img src="assets/img/blog/2.jpg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform translate-x-1/4"/>
+                <img src="assets/img/blog/co.jpeg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform translate-x-1/4"/>
             </div>
         </div>
     </div>
@@ -115,7 +115,7 @@ export default function AziziRevera() {
     <div className="container mx-auto my-10">
         <div className="flex flex-col md:flex-row overflow-hidden">
             <div className="md:w-1/2 h-64 md:h-auto relative">
-                <img src="assets/img/blog/2.jpg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform -translate-x-1/4"/>
+                <img src="assets/img/properties/creekharbour.jpeg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform -translate-x-1/4"/>
             </div>
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-2">Our Values</h2>
@@ -135,7 +135,7 @@ export default function AziziRevera() {
                 <a href="#" className="text-[#DAB852]  font-semibold">Read more</a>
             </div>
             <div className="md:w-1/2 h-64 md:h-auto relative">
-                <img src="assets/img/blog/2.jpg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform translate-x-1/4"/>
+                <img src="assets/img/about/d2.jpg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform translate-x-1/4"/>
             </div>
         </div>
     </div>
@@ -145,7 +145,7 @@ export default function AziziRevera() {
     <div className="container mx-auto my-10">
         <div className="flex flex-col md:flex-row overflow-hidden">
             <div className="md:w-1/2 h-64 md:h-auto relative">
-                <img src="assets/img/blog/2.jpg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform -translate-x-1/4"/>
+                <img src="assets/img/properties/jvc.jpeg" alt="Blog Image" className="absolute inset-0 w-full rounded-xl h-full object-cover object-center transform -translate-x-1/4"/>
             </div>
             <div className="md:w-1/2 p-6 flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-2">Conclusion</h2>
