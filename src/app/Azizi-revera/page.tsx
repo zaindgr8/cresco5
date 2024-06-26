@@ -6,7 +6,7 @@ export default function AziziRevera() {
 
   return (
     <Layout>
-      <div className="blog-header position-relative text-white">
+      <div className="blog-header  mt-20 position-relative text-white">
         <img
           src="assets/img/blog/re.jpeg"
           alt="Azizi Venice overview"
@@ -31,7 +31,7 @@ export default function AziziRevera() {
           <div className="row justify-content-center">
             <div className="col-xl-10 col-xxl-8">
               <article className="post single-post">
-              <h1 className=" pb-4 text-lg">Introduction</h1>
+              <h1 className=" pb-4 text-xl font-semibold">Introduction</h1>
                 <div className="entry-content">
                     
                   <p>
@@ -53,25 +53,26 @@ export default function AziziRevera() {
                  
                  
                   <ul>
-                    <li><strong>Location and Accessibility:</strong> Situated in Meydan, Azizi Riviera enjoys proximity to Meydan Racecourse, The Dubai World Cup, and various sports and leisure facilities. Its location near Downtown Dubai and Dubai International Airport makes it a convenient choice for those seeking property for sale in Dubai..</li>
-                    <li><strong>Architecture and Design:</strong> Comprising 69 mid-rise buildings designed to blend respectfully with the surroundings, Azizi Riviera features integrated retail spaces, attractive waterfront views, and lush gardens, creating a tranquil oasis in the bustling city. It's a sought-after destination for property for sale in Dubai.
+                    <li><strong className="text-xl font-medium text-black">Location and Accessibility:</strong> Situated in Meydan, Azizi Riviera enjoys proximity to Meydan Racecourse, The Dubai World Cup, and various sports and leisure facilities. Its location near Downtown Dubai and Dubai International Airport makes it a convenient choice for those seeking property for sale in Dubai..</li>
+                    <li><strong className="text-xl font-medium text-black">Architecture and Design:</strong> Comprising 69 mid-rise buildings designed to blend respectfully with the surroundings, Azizi Riviera features integrated retail spaces, attractive waterfront views, and lush gardens, creating a tranquil oasis in the bustling city. It's a sought-after destination for property for sale in Dubai.
                     .</li>
-                    <li><strong>Key Features and Amenities:</strong> Azizi Riviera Crows a vibrant retail district, offering  dining, and diverse options, and shopping experiences. Residents can enjoy scenic views, community parks, and a relaxed lifestyle. It's an attractive option for property for sale in Dubai.
+                    <li><strong className="text-xl font-medium text-black">Key Features and Amenities:</strong> Azizi Riviera Crows a vibrant retail district, offering  dining, and diverse options, and shopping experiences. Residents can enjoy scenic views, community parks, and a relaxed lifestyle. It's an attractive option for property for sale in Dubai.
                     .</li>
-                    <li><strong>Residential Options:</strong> Offering a range of residences including studios, 1-bedroom, and 2-bedroom apartments designed for comfort and style, Azizi Riviera caters to individuals, couples, and families looking for property for sale in Dubai. The homes prioritize safety and practicality.
+                    <li><strong className="text-xl font-medium text-black">Residential Options:</strong> Offering a range of residences including studios, 1-bedroom, and 2-bedroom apartments designed for comfort and style, Azizi Riviera caters to individuals, couples, and families looking for property for sale in Dubai. The homes prioritize safety and practicality.
                     .</li>
-                    <li><strong>Commitment to High Quality:</strong> Azizi Developments is committed to maintaining high standards across all its projects. Azizi Riviera exemplifies this commitment through its thoughtful design, quality construction, and attention to detail, ensuring a premium living experience for residents.</li>
-                    <li><strong>Our Values:</strong> At Azizi Developments, we uphold values of integrity, transparency, and customer-centricity. These values guide our approach to creating communities like Azizi Riviera, where every resident can feel at home and experience exceptional quality of life.</li>
+                    <li><strong className="text-xl font-medium text-black">Commitment to High Quality:</strong> Azizi Developments is committed to maintaining high standards across all its projects. Azizi Riviera exemplifies this commitment through its thoughtful design, quality construction, and attention to detail, ensuring a premium living experience for residents.</li>
+                    <li><strong className="text-xl font-medium text-black">Our Values:</strong> At Azizi Developments, we uphold values of integrity, transparency, and customer-centricity. These values guide our approach to creating communities like Azizi Riviera, where every resident can feel at home and experience exceptional quality of life.</li>
                     <li>We also plan to provide amenities such as basketball and tennis courts, jogging trails, spa and sauna, shopping mall, running tracks, outdoor dining, BBQ areas, fitness centers, community hall, gardens, parks, and many more.</li>
                   </ul>
 
                  
-                  <h2 className=" pt-2 text-xl">Future Prospects for Azizi Developments</h2>
+                  <h2 className=" pt-2 text-xl font-semibold">Future Prospects for Azizi Developments</h2>
                   <figure className="caption aligncenter">
                     <img
-                      src="assets/img/blog/prim.jpeg"
+                      src="assets/img/blog/0.jpg"
                       className="img-fluid rounded-3"
                       alt="Azizi Venice amenities"
+                      
                     />
                   </figure>
                   <p>
@@ -80,7 +81,7 @@ export default function AziziRevera() {
                   </p>
                   
 
-                  <h2 className=" pt-2 text-xl">Conclusion</h2>
+                  <h2 className=" pt-2 text-xl font-semibold">Conclusion</h2>
                  
                   <p>
                    

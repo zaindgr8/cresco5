@@ -1,4 +1,3 @@
-
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -6,12 +5,17 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
+
 export default function Header() {
   const [hasLogo, setHasLogo] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
+
   const toggleMenu = () => setShowMenu(!showMenu);
+  const toggleDropdown = () => setShowDropdown(!showDropdown);
 
   const path = usePathname();
+
   useEffect(() => {
     const handleScroll = () => {
       const scroll = window.scrollY;
@@ -36,7 +40,7 @@ export default function Header() {
         }
       >
         <div className="container-lg mt-5 nav-container position-absolute hidden md:block lg:block ">
-          <nav className="custom-navbar justify-center  navbar-expand-lg ml-16">
+          <nav className="custom-navbar justify-center navbar-expand-lg ml-16">
             <div>
               <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-center h-20 bg-gray-900">
                 <ul className="flex items-center justify-center gap-x-5">
@@ -85,20 +89,52 @@ export default function Header() {
                       />
                     </Link>
                   </li>
-                  <li>
-                    <Link
+                  <li
+                    onMouseEnter={() => setShowDropdown(true)}
+                    onMouseLeave={() => setShowDropdown(false)}
+                    className="relative"
+                  >
+                    <h1
                       className="text-white text-xl hover:text-yellow-500"
-                      href="/#properties-list"
+                      onClick={toggleDropdown}
                     >
-                      Properties
-                    </Link>
+                      Projects
+                    </h1>
+                    {showDropdown && (
+                      <ul className="absolute top-full w-40 mt-2 bg-gray-900 rounded-md shadow-lg">
+                        <li>
+                          <Link
+                            className="block px-2 py-2 text-white text-xl hover:text-yellow-500"
+                            href="/#projects"
+                          >
+                            Projects
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="block px-2 py-2 text-white text-xl hover:text-yellow-500"
+                            href="/Azizi-revera"
+                          >
+                            Azizi Revera
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="block px-2 py-2 text-white text-xl hover:text-yellow-500"
+                            href="/Azizi-Venice"
+                          >
+                            Azizi Venice
+                          </Link>
+                        </li>
+                      </ul>
+                    )}
                   </li>
                   <li>
                     <Link
-                      className="text-white text-xl hover:text-yellow-500"
-                      href="/#projects"
+                      className="text-xl text-white hover:text-yellow-500"
+                      href="/#properties-list"
                     >
-                      Projects
+                      Properties
                     </Link>
                   </li>
                   <li>
@@ -114,8 +150,8 @@ export default function Header() {
             </div>
           </nav>
         </div>
-        <div className="md:hidden  lg:hidden flex absolute bg-white rounded-md m-2 p-2 w-[95%]  justify-between items-end">
-          <div className="  ">
+        <div className="md:hidden lg:hidden flex absolute bg-white rounded-md m-2 p-2 w-[95%] justify-between items-end">
+          <div className=" ">
             <Link className="navbar-brand " href="/">
               <Image
                 width={70}
@@ -135,8 +171,8 @@ export default function Header() {
         </div>
 
         {showMenu && (
-          <div className="md:hidden  lg:hidden  absolute bg-white rounded-md m-2  w-[95%]">
-            <div className=" flex  justify-between rounded-md   bg-white">
+          <div className="md:hidden lg:hidden absolute bg-white rounded-md m-2 w-[95%]">
+            <div className="flex justify-between rounded-md bg-white">
               <div className="pt-2 px-2 ">
                 <Link className="navbar-brand " href="/">
                   <Image
@@ -149,18 +185,18 @@ export default function Header() {
                   />
                 </Link>
               </div>
-              <div className=" mr-2 pt-2 ">
+              <div className="mr-2 pt-2 ">
                 <span onClick={toggleMenu}>
                   <MdClose size={40} />
                 </span>
               </div>
             </div>
 
-            <div className="flex flex-col  gap-6  text-xl font-semibold hover:text-black text-gray-600">
-              <ul className="flex flex-col  gap-6 px-10 p-6  ">
+            <div className="flex flex-col gap-6 text-xl font-semibold hover:text-black text-gray-600">
+              <ul className="flex flex-col gap-6 px-10 p-6">
                 <li>
                   <Link
-                    className="text-xl  text-black hover:text-yellow-500"
+                    className="text-xl text-black hover:text-yellow-500"
                     href="/"
                     role="button"
                   >
@@ -169,7 +205,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    className="text-xl  text-black hover:text-yellow-500"
+                    className="text-xl text-black hover:text-yellow-500"
                     href="/about"
                   >
                     Who We Are
@@ -177,7 +213,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    className="text-xl  text-black hover:text-yellow-500"
+                    className="text-xl text-black hover:text-yellow-500"
                     href="/#teamwork"
                   >
                     Teamwork
@@ -186,23 +222,43 @@ export default function Header() {
 
                 <li>
                   <Link
-                    className=" text-black text-xl hover:text-yellow-500"
+                    className="text-black text-xl hover:text-yellow-500"
                     href="/#properties-list"
                   >
                     Properties
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    className=" text-black text-xl hover:text-yellow-500"
-                    href="/#projects"
+                  <div
+                    className="text-black text-xl hover:text-yellow-500 cursor-pointer"
+                    onClick={toggleDropdown}
                   >
                     Projects
-                  </Link>
+                  </div>
+                  {showDropdown && (
+                    <ul className="ml-4">
+                      <li>
+                        <Link
+                          className="text-black text-xl hover:text-yellow-500"
+                          href="/Azizi-revera"
+                        >
+                          Azizi Revera
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="text-black text-xl hover:text-yellow-500"
+                          href="/Azizi-Venice"
+                        >
+                          Azizi Venice
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
                 </li>
                 <li>
                   <Link
-                    className="text-xl  text-black hover:text-yellow-500"
+                    className="text-xl text-black hover:text-yellow-500"
                     href="/contact"
                   >
                     Contact Us
