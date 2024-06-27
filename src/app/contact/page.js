@@ -1,16 +1,13 @@
-import Footer from "@/components/Footer";
-import GoogleMapsComponent from "@/components/map";
+import Footer from "../../componentscomponents/Footer";
+import GoogleMapsComponent from "../../componentscomponents/map";
 import Link from "next/link";
 
 import Image from "next/image";
 export default function Contact() {
   return (
     <div>
-     
       <div className="">
-        
         <div className="map-content">
-        
           <GoogleMapsComponent className="map border-bottom" />
           {/* <div id="map" className="map border-bottom" /> */}
           {/* /.End Map */}
@@ -154,8 +151,7 @@ export default function Contact() {
                       width={100}
                       height={100}
                       unoptimized
-                       layout="responsive"
-
+                      layout="responsive"
                     />
                     {/* /.End Illustration Image */}
                   </div>
@@ -236,7 +232,7 @@ export default function Contact() {
         {/* /.End of about section */}
       </div>
       {/* /. End Main Content */}
-      <Footer/>
+      <Footer />
     </div>
   );
 }

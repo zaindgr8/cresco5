@@ -1,8 +1,7 @@
-
-import AboutVideoContainer from "@/components/about-video-container";
+import AboutVideoContainer from "../../components/about-video-container";
 import ReusableCountUp from "@/components/counter";
 
-import Footer from "@/components/Footer";
+import Footer from "../../components/components/Footer";
 import Testimonial1 from "../crescoComponent/Testimonial";
 import TSection from "../crescoComponent/TSection";
 
@@ -117,13 +116,13 @@ export default function About() {
                         className=" rounded-3 position-relative"
                         alt=""
                         width={100}
-                          height={100}
-                          unoptimized
-                           layout="responsive"
+                        height={100}
+                        unoptimized
+                        layout="responsive"
                       />
                     </div>
                   </div>
-                  
+
                   <div className="col-6">
                     <div className="row g-3 g-sm-4">
                       {/* Image */}
@@ -135,7 +134,7 @@ export default function About() {
                           width={100}
                           height={100}
                           unoptimized
-                           layout="responsive"
+                          layout="responsive"
                         />
                       </div>
                       {/* Image */}
@@ -147,7 +146,7 @@ export default function About() {
                           width={100}
                           height={100}
                           unoptimized
-                           layout="responsive"
+                          layout="responsive"
                         />
                       </div>
                     </div>
@@ -192,8 +191,7 @@ export default function About() {
                     <cite className="fs-14 fw-semibold quote-attribution text-dark">
                       — Umer Shauket, CEO
                     </cite>
-                    <div className="mt-3 signature">
-                    </div>
+                    <div className="mt-3 signature"></div>
                   </blockquote>
                 </div>
               </div>
@@ -204,10 +202,10 @@ export default function About() {
         <AboutVideoContainer />
         {/* /. End About Video Section */}
         {/* Start Customers Section */}
-     <Testimonial1/>
+        <Testimonial1 />
         {/* /. End Customers Section */}
         {/* Start Team Content */}
-       <TSection/>
+        <TSection />
         {/* /. End Team Content */}
       </div>
       {/* /. End Main Content */}
