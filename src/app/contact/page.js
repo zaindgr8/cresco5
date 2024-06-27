@@ -1,5 +1,5 @@
-import Footer from "../../componentscomponents/Footer";
-import GoogleMapsComponent from "../../componentscomponents/map";
+import Footer from "../../components/Footer";
+import GoogleMapsComponent from "../../components/map";
 import Link from "next/link";
 
 import Image from "next/image";
