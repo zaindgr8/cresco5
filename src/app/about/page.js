@@ -1,7 +1,7 @@
 import AboutVideoContainer from "../../components/about-video-container";
-import ReusableCountUp from "@/components/counter";
+import ReusableCountUp from "../../components/counter";
 
-import Footer from "../../components/components/Footer";
+import Footer from "../../components/Footer";
 import Testimonial1 from "../crescoComponent/Testimonial";
 import TSection from "../crescoComponent/TSection";
 
