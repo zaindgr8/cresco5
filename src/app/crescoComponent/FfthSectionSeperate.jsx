@@ -8,6 +8,8 @@ const FfthSection = () => {
   return (
     <div className="py-5">
       <div className="container pt-5 pb-4">
+
+        
         <div className="row">
           <div className="col-md-10 offset-md-1" data-aos="fade-down">
             {/* Start Section Header Title */}
@@ -42,6 +44,8 @@ const FfthSection = () => {
             {/*/. End Section Header */}
           </div>
         </div>
+
+
         <div className="row g-4 justify-content-center" id="properties">
           <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
             <span className={stroma.className}>Rent Properties</span>
