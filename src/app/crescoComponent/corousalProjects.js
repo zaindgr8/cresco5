@@ -94,7 +94,7 @@ const Carousel = () => {
         {/* Start Avatar Info */}
         <div className="flex items-center flex-col">
           <h5 className="mt-3 mb-1">
-            <Link href="/">
+            <Link href="Azizi-Venice">
               <span className="text-lg">Azizi Venice</span>
             </Link>
           </h5>
