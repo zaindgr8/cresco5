@@ -51,7 +51,7 @@ export default function BlogDetails() {
       <div className="blog-header position-relative text-white">
         <Image
           layout="fill"
-          src="/assets/img/azizi/7.png"
+          src="/assets/img/azizi/7.jpeg"
           alt=""
           className="h-100 object-fit-cover position-absolute w-100 top-0 left-0"
         />
@@ -68,7 +68,7 @@ export default function BlogDetails() {
               </div>
               {/* /.End Meta Info */}
               <h1 className="fw-semibold display-4 text-white">
-                AZIZI DEVELOPMENTS
+                AZIZI DEVELOPMENT
               </h1>
               {/* /.End of header title */}
               {/* Start Author Info */}
