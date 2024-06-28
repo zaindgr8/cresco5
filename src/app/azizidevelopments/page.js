@@ -309,7 +309,7 @@ export default function BlogDetails() {
                     <Image
                     width={500}
                     height={500}
-                      src="assets/img/azizi/10.jpg"
+                      src="/assets/img/azizi/10.jpg"
                       className="img-fluid rounded-3 position-relative"
                       alt=""
                     />
@@ -320,6 +320,7 @@ export default function BlogDetails() {
                     {/* Image */}
                     <div className="col-12">
                       <Image
+                      height={500}
                       width={500}
                         src="/assets/img/azizi/8.jpg"
                         className="img-fluid rounded-3"
@@ -330,6 +331,7 @@ export default function BlogDetails() {
                     <div className="col-12">
                       <Image
                       width={500}
+                      height={500}
                         src="/assets/img/azizi/11.jpg"
                         className="img-fluid rounded-3"
                         alt=""
