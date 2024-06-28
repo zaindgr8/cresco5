@@ -150,7 +150,7 @@ export default function BlogDetails() {
             <Image
             width={500}
             height={500}
-              src="/assets/img/azizi/10.jpg" // Assuming assets folder is at root
+              src="/assets/img/azizi/10.jpeg" // Assuming assets folder is at root
               alt="Blog Image"
               className="responsive-img absolute inset-0 w-full rounded-xl h-full object-cover object-center"
             />
@@ -273,7 +273,7 @@ export default function BlogDetails() {
                 <Image
                 width={500}
                 height={500}
-                  src="/assets/img/azizi/10.jpg" // Assuming assets folder is at root
+                  src="/assets/img/azizi/10.jpeg" // Assuming assets folder is at root
                   alt="Blog Image"
                   className="responsive-img absolute inset-0 w-full rounded-xl h-full object-cover object-center"
                 />
@@ -309,7 +309,7 @@ export default function BlogDetails() {
                     <Image
                     width={500}
                     height={500}
-                      src="/assets/img/azizi/10.jpg"
+                      src="/assets/img/azizi/10.jpeg"
                       className="img-fluid rounded-3 position-relative"
                       alt=""
                     />
@@ -322,7 +322,7 @@ export default function BlogDetails() {
                       <Image
                       height={500}
                       width={500}
-                        src="/assets/img/azizi/8.jpg"
+                        src="/assets/img/azizi/8.jpeg"
                         className="img-fluid rounded-3"
                         alt=""
                       />
@@ -332,7 +332,7 @@ export default function BlogDetails() {
                       <Image
                       width={500}
                       height={500}
-                        src="/assets/img/azizi/11.jpg"
+                        src="/assets/img/azizi/11.jpeg"
                         className="img-fluid rounded-3"
                         alt=""
                       />
