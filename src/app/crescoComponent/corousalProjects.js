@@ -82,7 +82,7 @@ const Carousel = () => {
           <div className="w-full h-[45vh] overflow-hidden">
             <Image
               layout="responsive"
-              src="/assets/img/azizi/3a.jpg"
+              src="/assets/img/azizi/3a.jpeg"
               className=" object-cover  "
               alt=""
               width={100}
@@ -113,7 +113,7 @@ const Carousel = () => {
           <div className="w-full h-[45vh] overflow-hidden">
             <Image
               layout="responsive"
-              src="/assets/img/azizi/am3.jpg"
+              src="/assets/img/azizi/am3.jpeg"
               className=" object-cover  "
               alt=""
               width={100}
@@ -143,7 +143,7 @@ const Carousel = () => {
           <div className="w-full h-[45vh] overflow-hidden">
             <Image
               layout="responsive"
-              src="/assets/img/azizi/al1.jpg"
+              src="/assets/img/azizi/al1.jpeg"
               className=" object-cover"
               alt=""
               width={100}
