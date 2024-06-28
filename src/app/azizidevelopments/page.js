@@ -4,6 +4,7 @@ import Carousel from "@/components/corousel";
 import Link from "next/link";
 import Corousal from "../crescoComponent/corousalProjects"
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 const questions = [
   // Replace with your questions
@@ -48,8 +49,9 @@ export default function BlogDetails() {
     <Layout>
       {/* Start Page Header */}
       <div className="blog-header position-relative text-white">
-        <img
-          src="assets/img/azizi/7.jpg"
+        <Image
+          layout="fill"
+          src="/assets/img/azizi/7.jpg"
           alt=""
           className="h-100 object-fit-cover position-absolute w-100 top-0 left-0"
         />

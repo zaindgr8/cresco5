@@ -3268,8 +3268,8 @@ textarea.form-control {
 
 .post-title a,
 .p-post a {
-  background-image: -o-linear-gradient(transparent calc(100% - 2px), var(--bs-primary) 3px);
-  background-image: linear-gradient(transparent calc(100% - 2px), var(--bs-primary) 3px);
+  background-image: #D9B853;
+  background-image: #D9B853;
 }
 
 .post-block a:hover,
