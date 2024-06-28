@@ -111,10 +111,13 @@ export default function BlogDetails() {
                   </p>
 
                   <figure className="caption aligncenter w-[500px]">
-                    <img
-                      src="assets/img/azizi/owner.jpeg"
+                    <Image
+  
+                      src="/assets/img/azizi/owner.jpeg"
                       className="img-fluid rounded-3 "
                       alt=""
+                      width={500}
+                      height={500}
                     />
                     <figcaption className="caption-text fs-11 text-center text-muted text-uppercase mt-2">
                       MIRWAIS AZIZI , CHAIRMAN, AZIZI DEVELOPMENTS
@@ -144,7 +147,9 @@ export default function BlogDetails() {
       <div className="container mx-auto mb-5">
         <div className="flex flex-col md:flex-row overflow-hidden">
           <div className="md:w-1/2 h-64 md:h-auto relative">
-            <img
+            <Image
+            width={500}
+            height={500}
               src="/assets/img/azizi/10.jpg" // Assuming assets folder is at root
               alt="Blog Image"
               className="responsive-img absolute inset-0 w-full rounded-xl h-full object-cover object-center"
@@ -265,7 +270,9 @@ export default function BlogDetails() {
                 </ul>
               </div>
               <div className="md:w-1/2 h-64 md:h-auto relative">
-                <img
+                <Image
+                width={500}
+                height={500}
                   src="/assets/img/azizi/10.jpg" // Assuming assets folder is at root
                   alt="Blog Image"
                   className="responsive-img absolute inset-0 w-full rounded-xl h-full object-cover object-center"
@@ -299,7 +306,9 @@ export default function BlogDetails() {
                 <div className="col-6">
                   <div className="position-relative">
                     <div className="line-shape" />
-                    <img
+                    <Image
+                    width={500}
+                    height={500}
                       src="assets/img/azizi/10.jpg"
                       className="img-fluid rounded-3 position-relative"
                       alt=""
@@ -310,16 +319,18 @@ export default function BlogDetails() {
                   <div className="row g-3 g-sm-4">
                     {/* Image */}
                     <div className="col-12">
-                      <img
-                        src="assets/img/azizi/8.jpg"
+                      <Image
+                      width={500}
+                        src="/assets/img/azizi/8.jpg"
                         className="img-fluid rounded-3"
                         alt=""
                       />
                     </div>
                     {/* Image */}
                     <div className="col-12">
-                      <img
-                        src="assets/img/azizi/11.jpg"
+                      <Image
+                      width={500}
+                        src="/assets/img/azizi/11.jpg"
                         className="img-fluid rounded-3"
                         alt=""
                       />
