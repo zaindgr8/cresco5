@@ -50,7 +50,7 @@ export default function BlogDetails() {
       <div className="blog-header position-relative text-white">
         <Image
           layout="fill"
-          src="/assets/img/azizi/a-rivera.jpeg"
+          src="/assets/img/azizi/a-riveraa.jpeg"
           alt=""
           className="h-100 object-fit-cover position-absolute w-100 top-0 left-0"
         />
