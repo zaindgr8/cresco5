@@ -1,8 +1,8 @@
-"use client"
-import Layout from "@/components/Layout";
-import Carousel from "@/components/corousel";
+"use client";
+import Layout from "../../components/Layout";
+import Carousel from "../../components/corousel";
 import Link from "next/link";
-import Corousal from "../crescoComponent/corousalProjects"
+import Corousal from "../crescoComponent/corousalProjects";
 import React, { useState, useEffect } from "react";
 
 const questions = [
@@ -20,11 +20,10 @@ const answers = [
   "The company integrates eco-friendly practices like solar panels and advanced waste management systems to reduce their environmental impact.",
   "They offer personalized services, flexible payment plans, and prioritize client needs, leading to high customer satisfaction and loyalty.",
   "Yes, they participate in CSR activities like sponsoring local events and supporting educational programs. The chairman, Mirwais Azizi, has also donated to healthcare facilities in Afghanistan.",
-  "They aim to:Expand within Dubai and explore new markets. Launch more innovative projects for modern urban living.Open offices internationally (London, Europe, US, Canada). Venture into hospitality with 50 five-star hotels and one seven-star hotel. Complete 10,000 units by 2025 and 31,000 units by 2028."
+  "They aim to:Expand within Dubai and explore new markets. Launch more innovative projects for modern urban living.Open offices internationally (London, Europe, US, Canada). Venture into hospitality with 50 five-star hotels and one seven-star hotel. Complete 10,000 units by 2025 and 31,000 units by 2028.",
 ];
 
 export default function BlogDetails() {
-
   const [activeQuestion, setActiveQuestion] = useState(null);
 
   const shuffleQuestions = () => {
@@ -42,7 +41,6 @@ export default function BlogDetails() {
   const toggleAnswer = (index) => {
     setActiveQuestion(index === activeQuestion ? null : index);
   };
-
 
   return (
     <Layout>
@@ -485,7 +483,8 @@ export default function BlogDetails() {
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
                   Whether you're looking for luxury real estate, innovative
-                  architectural designs, or sustainable urban developments, <br/>
+                  architectural designs, or sustainable urban developments,{" "}
+                  <br />
                   you'll find detailed profiles and project highlights that
                   showcase the excellence and expertise of Dubai's top
                   developers.
