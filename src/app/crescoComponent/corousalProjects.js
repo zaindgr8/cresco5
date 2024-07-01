@@ -82,7 +82,7 @@ const Carousel = () => {
           <div className="w-full h-[45vh] overflow-hidden">
             <Image
               layout="responsive"
-              src="/assets/img/azizi/3a.jpg"
+              src="/assets/img/azizi/3a.JPG"
               className=" object-cover  "
               alt=""
               width={100}
