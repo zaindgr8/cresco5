@@ -6,29 +6,22 @@ import Corousal from "../crescoComponent/corousalProjects";
 import React, { useState, useEffect } from "react";
 
 const questions = [
-  "What is Azizi Venice?",
-  "Where is Azizi Venice located?",
-  "Why should I invest in Azizi Venice?",
-  "What are the key features of Azizi Venice?",
-  "What amenities does Azizi Venice offer?",
-  "What residential options are available at Azizi Venice?",
-  "What is the living experience like at Azizi Venice?",
-  "How is safety and security ensured at Azizi Venice?",
-  "How can I book a residence at Azizi Venice?",
+  "Why Choose Danube Properties?",
+  "What makes Danube Properties a trusted developer in the UAE?",
+  "What are the key advantages of investing with Danube Properties?",
+  "What is the latest project by Danube Properties?",
+  "How can I become a part of Danube Properties' projects?",
 ];
 
 const answers = [
-  "Azizi Venice is a luxurious residential development offering a Venetian-inspired lifestyle in Meydan One, Dubai, featuring stunning views of the Dubai Water Canal and the Meydan Racecourse.",
-  "Located in South Dubai, Azizi Venice provides excellent connectivity, with proximity to Al Maktoum International Airport and key facilities.",
-  "Investing in Azizi Venice offers a unique blend of luxury living, waterfront views, and a vibrant community atmosphere, making it a lucrative option in Dubai's real estate market.",
-  "Key features of Azizi Venice include 100 mid-sized apartment buildings, 69 waterfront apartments, 261 waterfront villas, and an 18 km lagoon with artificial waves, offering a seaside experience.",
-  "Azizi Venice boasts world-class amenities including retail outlets, gourmet restaurants, fitness centers, swimming pools, parks, and community spaces, enhancing the resident experience.",
-  "Residential options at Azizi Venice include studios, one-bedroom, two-bedroom, and three-bedroom apartments, each offering scenic views and luxurious living spaces.",
-  "Living at Azizi Venice promises a tranquil environment with picturesque views, reminiscent of Venice's charm and beauty.",
-  "Safety and security at Azizi Venice are prioritized with 24/7 security systems and concierge services, ensuring a safe and secure living environment for residents.",
-  "To book a residence at Azizi Venice, interested parties can contact Azizi Developments for more information on available units and flexible payment plans.",
+  "Danube Properties, since it began working in the UAE, has become one of the top four leading and most trusted developers in the Real Estate industry. The trust our clients place in us has a reason – We deliver high-quality homes with elegant designs and state-of-the-art facilities in prime locations in UAE, all at a cost reasonable to a diverse range of clients. We believe in following a strategic and client-centric approach based on the desires, needs, and preferences of our clients, turning their dreams into a real home.",
+  "Danube Properties started its journey in Dubai in 1993 and has grown into a large-scale development giant with a strong reputation as a trusted partner of clients looking for their dream homes. Timely delivery and architectural excellence have been the core principles of our working strategy since inception.",
+  "Investing with Danube Properties offers advantages such as freehold ownership, high return on investment, over 30 years of industry trust, flexible payment plans, timely project delivery, and prime locations across the UAE.",
+  "DIAMONDOZ, the latest project launched by Danube Properties, is located in Jumeirah Lake Towers, offering studios to three-bedroom units with sleek designs and facilities like a fitness center, infinity pool, and retail outlets.",
+  "To become part of Danube Properties' projects, contact us now to explore our developments, start your investment journey, and own a home in prime UAE locations.",
 ];
-export default function AziziVenice() {
+
+export default function Danube() {
   const [activeQuestion, setActiveQuestion] = useState(null);
 
   const shuffleQuestions = () => {
@@ -62,19 +55,15 @@ export default function AziziVenice() {
               {/* Start Meta Info */}
               <div className="align-items-start flex-wrap fs-17 gap-2 hstack justify-content-center mb-1 text-capitalize">
                 <div className="text-white fw-medium">
-                  Located in South Dubai
+                  Located in the Heart of MBR City
                 </div>
                 <span className="vr" />
-                <div>Prime Location with Excellent Connectivity</div>
+                <div>Prime Location with Unparalleled Access</div>
               </div>
               {/* /.End Meta Info */}
               <h1 className="fw-semibold display-4 text-white">
-                Discover Azizi Venice: A Venetian Oasis in Dubai
+                Danube Properties: Your Trusted Developer in the UAE
               </h1>
-              {/* /.End of header title */}
-              {/* Start Author Info */}
-
-              {/* /.End Author Info */}
             </div>
           </div>
         </div>
@@ -91,9 +80,7 @@ export default function AziziVenice() {
                     <div className="section-header text-center ">
                       {/* Start Subtitle */}
                       <div className="bg-[#DAB852] d-inline-block  mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
-                        <span className="font-bold text-xl">
-                          About Azizi Venice
-                        </span>
+                        <span className="font-bold text-xl">ABOUT US</span>
                       </div>
                       {/* /. End Subtitle */}
                     </div>
@@ -102,29 +89,18 @@ export default function AziziVenice() {
                 </div>
                 <div className="entry-content">
                   <p className="mt-2">
-                    Azizi Venice offers a luxury lifestyle in the core of Dubai,
-                    making your life stress-free with its elegant structure,
-                    endless facilities, and peaceful environment. Situated
-                    beside the beautiful view of Dubai Water Canal, Azizi Venice
-                    offers a variety of studios, one, two, and three-bedroom
-                    apartments, each having a beautiful view of the Dubai
-                    skyline, the peace-showering canal waters or the attracting
-                    Racecourse of Meydan, and a comfortable stay you never had
-                    before – the same you feel in Venice, a city of Italy known
-                    for its beautiful waterways.
+                    Danube Properties, since it began working in the UAE, has
+                    become one of the top four leading and most trusted
+                    developers in the Real Estate industry. The trust our
+                    clients place in us has a reason – We deliver high-quality
+                    homes with elegant designs and state-of-the-art facilities
+                    in prime locations in UAE, all at a cost reasonable to a
+                    diverse range of clients. We believe in following a
+                    strategic and client-centric approach based on the desires,
+                    needs, and preferences of our clients, turning their dreams
+                    into a real home.
                   </p>
-                  <ul className="list-checked mb-9 mb-md-10 ps-0 text-gray-800">
-                    <li>
-                      <strong>An Ideal Location:</strong> Azizi Venice is
-                      strategically located near key facilities and services,
-                      enhancing convenience for residents.
-                    </li>
-                    <li>
-                      <strong>Connectivity:</strong> Enjoy seamless connectivity
-                      with nearby transportation options, including the Dubai
-                      Metro and Dubai International Airport.
-                    </li>
-                  </ul>
+
                   <figure className="caption aligncenter w-[500px]">
                     <img
                       src="assets/img/azizi/azziz.jpg"
@@ -147,9 +123,9 @@ export default function AziziVenice() {
           {/* Start Section Header Title */}
           <div className="section-header text-center mb-2">
             {/* Start Subtitle */}
-            <div className="bg-[#DAB852] d-inline-block mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
+            <div className="bg-[#DAB852] d-inline-block  mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
               <span className="font-bold text-xl">
-                Exceptional Amenities and World-Class Facilities
+                Why Choose Danube Properties?
               </span>
             </div>
             {/* /. End Subtitle */}
@@ -168,44 +144,31 @@ export default function AziziVenice() {
             />
           </div>
           <div className="md:w-1/2 p-6 flex flex-col justify-center">
-            <p className="text-gray-700 mb-4">
-              At Azizi Venice, we believe in offering more than just a home. Our
-              world-class amenities are designed to enhance your lifestyle:
-            </p>
             <ul className="list-checked mb-9 mb-md-10 ps-0 text-gray-800">
               <li>
-                <strong>Retail and Dining:</strong> Azizi Venice has a vibrant
-                street dedicated to charming cafes, gourmet restaurants, and
-                boutique shops. Enjoy a variety of dining options and unique
-                shopping experiences right in your building.
+                <strong>Freehold Ownership:</strong> Secure full ownership of
+                your property, allowing you to use, reconstruct, or sell it at
+                any time in the UAE.
               </li>
               <li>
-                <strong>Fitness and Recreation:</strong> We cater to diverse
-                preferences with spaces dedicated to state-of-the-art fitness
-                centers, refreshing swimming pools, and peaceful wellness areas.
+                <strong>High Return on Investment:</strong> Our projects offer
+                ever-increasing market value and the best return on investment.
               </li>
               <li>
-                <strong>Parks and Green Spaces:</strong> Enjoy peaceful walks in
-                our green gardens, offering a retreat from city life.
+                <strong>30 Years of Trust:</strong> With over three decades of
+                experience, we are a trusted name in UAE real estate.
               </li>
               <li>
-                <strong>Waterfront Living:</strong> Relax along our beautifully
-                designed waterfront promenade along the Dubai Canal, perfect for
-                walks and outdoor activities.
+                <strong>Best Payment Plan:</strong> We offer flexible payment
+                plans to suit residents, foreigners, and investors.
               </li>
               <li>
-                <strong>Community Spaces:</strong> BBQ areas, playgrounds, and
-                community clubs foster connections with friends and family, open
-                day and night for snacks and activities.
+                <strong>Timely Delivery:</strong> We deliver all projects on
+                time, ensuring you receive your dream home as promised.
               </li>
               <li>
-                <strong>24/7 Security:</strong> Your safety is our priority with
-                round-the-clock security systems and concierge services.
-              </li>
-              <li>
-                <strong>Future Plans:</strong> Stay tuned for additions like a
-                shopping mall, healthcare facilities, and sports courts,
-                enhancing community life at Azizi Venice.
+                <strong>Prime Locations:</strong> Our projects are strategically
+                located for convenience and high investment potential.
               </li>
             </ul>
           </div>
@@ -237,14 +200,16 @@ export default function AziziVenice() {
 
                 <div className="sub-title fs-16">
                   <p>
-                    Azizi Rivera, inspired by French Mediterranean design, is
-                    developed by Azizi Developments in Meydan District One,
-                    Mohammed Bin Rashid City (MBR City), Dubai. More than a mere
-                    residential building, Azizi Rivera is constructed with
-                    modern architectural designs, state-of-the-art amenities,
-                    and a variety of homes worth investing your hard-earned cash
-                    in, making it an ideal place to live and find property for
-                    sale in Dubai.
+                    Danube Properties, since it began working in the UAE, has
+                    become one of the top four leading and most trusted
+                    developers in the Real Estate industry. The trust our
+                    clients place in us has a reason – We deliver high-quality
+                    homes with elegant designs and state-of-the-art facilities
+                    in prime locations in UAE, all at a cost reasonable to a
+                    diverse range of clients. We believe in following a
+                    strategic and client-centric approach based on the desires,
+                    needs, and preferences of our clients, turning their dreams
+                    into a real home.
                   </p>
                 </div>
 
@@ -254,7 +219,8 @@ export default function AziziVenice() {
             </div>
           </div>
 
-          <Corousal />
+          {/* Integrate your Carousel component */}
+          <Carousel />
 
           <div className="row">
             <div className="col-md-10 offset-md-1" data-aos="">
@@ -263,7 +229,7 @@ export default function AziziVenice() {
                 {/* Start Subtitle */}
                 <div className="bg-[#DAB852] d-inline-block  mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
                   <span className="font-bold text-xl">
-                    What Choose Azizi Rivera in MBR?
+                    Latest Launch: DIAMONDZ by Danube
                   </span>
                 </div>
                 {/* /. End Subtitle */}
@@ -276,28 +242,22 @@ export default function AziziVenice() {
             <div className="flex flex-col md:flex-row overflow-hidden">
               <div className="md:w-1/2 p-6 flex flex-col justify-center">
                 <p className="text-gray-700 mb-4">
-                  With lots of options available for you from many of the real
-                  estate corporations in Dubai, Azizi Rivera still manages to
-                  take the lead among them. What makes it an ideal place to
-                  choose to live in Dubai is the feeling you get there.
+                  Discover DIAMONDOZ, Danube Properties' latest project in
+                  Dubai's Jumeirah Lake Towers. Offering studios to
+                  three-bedroom units with sleek designs, it's perfectly located
+                  near marketplaces and offices, providing a serene waterfront
+                  living experience. Enjoy amenities like a fitness center,
+                  infinity pool, and retail outlets. Please note, regulatory
+                  approval is pending.
                 </p>
                 <ul className="list-checked mb-9 mb-md-10 ps-0 text-gray-800">
                   <li>
-                    <strong>Mind-Refreshing Views:</strong> Inspired by the
-                    French Mediterranean, Azizi Rivera offers stunning views
-                    across 69 mid-rise buildings, with lush greenery and
-                    waterfront vistas.
-                  </li>
-                  <li>
-                    <strong>Health & Fitness Facilities:</strong> Nearby key
-                    hospitals and community fitness centers provide convenient
-                    health and wellness options, including parks, fitness
-                    centers, and swimming pools, promoting a healthy lifestyle.
-                  </li>
-                  <li>
-                    <strong>Shop in Minutes:</strong> An integrated retail
-                    district within the community offers a mega market for
-                    dining and shopping, ensuring convenience for residents.
+                    <strong>Become Part of Our Family</strong> Inspired by the
+                    Join our family today! Invest in Danube’s exceptional
+                    projects for high returns. Whether you seek a strategic
+                    business location or a peaceful residence, we offer the
+                    facilities you desire. Contact us now to explore our prime
+                    UAE locations and start your investment journey.
                   </li>
                 </ul>
               </div>
@@ -368,30 +328,38 @@ export default function AziziVenice() {
 
             <div className="col-md-12 col-lg-5 ps-xxl-5">
               <div className="text-block">
-                <h2 className="mb-2 text-lg font-bold">Variety of Homes</h2>
+                <h2 className="mb-2 text-lg font-bold">
+                  Top-Notch Quality and Dedication
+                </h2>
                 <p className="mb-4">
-                  To meet the diverse needs of the residents of Dubai, we have a
-                  lot of residential options for you, including studios, villas,
-                  1-bedroom, and 2-bedroom apartments.
+                  We're committed to delivering promised quality, showcasing our
+                  high-quality projects. Our team monitors every construction
+                  step to ensure the best homes. We offer additional facilities
+                  like advanced clean energy systems to personalize our approach
+                  to individual needs.
+                </p>
+                <hr className="mt-3 mb-3" />
+                <h2 className="mb-2 text-lg font-bold">Creative Designs:</h2>
+                <p className="mb-4">
+                  We specialize in creative designs that capture vibrant
+                  cityscapes, serene landscapes, and elegant interiors, securing
+                  projects with innovative ideas. Our dedicated teams turn
+                  clients' dreams into reality through customized strategies,
+                  focusing on preferences like open layouts, natural light, and
+                  innovative storage solutions.
                 </p>
                 <hr className="mt-3 mb-3" />
                 <h2 className="mb-2 text-lg font-bold">
-                  Premium Living Experience:
+                  Putting Customers First:{" "}
                 </h2>
                 <p className="mb-4">
-                  Each of the homes in Azizi Rivera gives you a pleasant
-                  feeling, comfort, and stylish feel. Along with the
-                  top-of-the-class materials used, we also offer personalization
-                  options to those who want their homes the way they like to be.
-                </p>
-                <hr className="mt-3 mb-3" />
-                <h2 className="mb-2 text-lg font-bold">Safety & Security: </h2>
-                <p className="mb-4">
-                  Beyond everything, the scenic views, and comfort, we
-                  prioritize safety and security for you, your families, and
-                  your drives. With the most advanced 24/7 security mechanisms
-                  installed, you can relax in your apartments without any fears
-                  of theft and privacy breaches
+                  Customer satisfaction is our top priority. We value customer
+                  reviews throughout the home construction process, providing
+                  efficient service and support. We prioritize your preferences,
+                  whether it's a stunning view or a strategic location, aiming
+                  to exceed expectations for a peaceful living experience. Our
+                  after-sales support includes maintenance services and a
+                  dedicated customer care hotline.
                 </p>
               </div>
             </div>
@@ -415,32 +383,32 @@ export default function AziziVenice() {
         </div>
       </div>
 
-      <div>
-        <div className="container py-4">
-          <div className="row">
-            <div className="col-md-10 offset-md-1">
-              {/* Start Section Header Title */}
-              <div className="section-header text-center mb-5" data-aos="">
-                {/* Start Section Header title */}
-                <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
-                  Azizi Rivera <br /> Modern Comfort and Stylish Living
-                </h2>
-                {/* /.End Section Header Title */}
-                {/* Start Section Header Sub Title */}
-                <div className="sub-title fs-16">
-                  Azizi Rivera, inspired by French Mediterranean design, is
-                  developed by Azizi Developments in Meydan District One,
-                  Mohammed Bin Rashid City (MBR City), Dubai. More than a mere
-                  residential building, Azizi Rivera is constructed with modern
-                  architectural designs, state-of-the-art amenities, and a
-                  variety of homes worth investing your hard-earned cash in,
-                  making it an ideal place to live and find property for sale in
-                  Dubai.
-                </div>
-                {/* /.End Section Header Sub Title */}
+      <div className="container py-4">
+        <div className="row">
+          <div className="col-md-10 offset-md-1">
+            {/* Start Section Header Title */}
+            <div className="section-header text-center mb-5" data-aos="">
+              {/* Start Section Header title */}
+              <h2 className="h1 fw-semibold mb-3 section-header__title text-capitalize">
+                Danube Properties: Your Trusted Developer in the UAE
+              </h2>
+              {/* /.End Section Header Title */}
+              {/* Start Section Header Sub Title */}
+              <div className="sub-title fs-16">
+                Danube Properties, since it began working in the UAE, has become
+                one of the top four leading and most trusted developers in the
+                Real Estate industry. The trust our clients place in us has a
+                reason – We deliver high-quality homes with elegant designs and
+                state-of-the-art facilities in prime locations in UAE, all at a
+                cost reasonable to a diverse range of clients. We believe in
+                following a strategic and client-centric approach based on the
+                desires, needs, and preferences of our clients, turning their
+                dreams into a real home.
               </div>
-              {/*/. End Section Header */}
+              {/* /.End Section Header Sub Title */}
+              {/* Additional content about Danube Properties can be added here */}
             </div>
+            {/*/. End Section Header */}
           </div>
         </div>
       </div>
@@ -515,13 +483,11 @@ export default function AziziVenice() {
                 {/* /.End Section Header Title */}
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
-                  Azizi Rivera brings you an extraordinary opportunity to own an
-                  elegant house in the core of Dubai, The MBR City – Where you
-                  get all the facilities and amenities you can ever imagine.
-                  More than that, with airports and railways being close, it
-                  connects you to most of Dubai as well globally. So, don’t wait
-                  anymore to book your premium residence at Azizi Rivera with
-                  Azizi Developments.
+                  Danube Properties offers you an extraordinary opportunity to
+                  own an elegant house in prime locations across the UAE. With a
+                  focus on high-quality homes, state-of-the-art amenities, and
+                  strategic locations, Danube Properties ensures your dream home
+                  becomes a reality.
                 </div>
                 {/* /.End Section Header Sub Title */}
               </div>
