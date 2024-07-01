@@ -1,7 +1,7 @@
 "use client";
 import Layout from "../../components/Layout";
 import Carousel from "../../components/corousel";
-import Link from "next/link";
+
 import Corousal from "../crescoComponent/corousalProjects";
 import React, { useState, useEffect } from "react";
 
@@ -47,7 +47,7 @@ export default function AziziMina() {
       {/* Start Page Header */}
       <div className="blog-header position-relative text-white">
         <img
-          src="assets/img/azizi/7.jpg"
+          src="assets/img/azizi/5.JPG"
           alt=""
           className="h-100 object-fit-cover position-absolute w-100 top-0 left-0"
         />
@@ -252,7 +252,7 @@ export default function AziziMina() {
               </div>
               <div className="md:w-1/2 h-64 md:h-auto relative">
                 <img
-                  src="/assets/img/azizi/10.jpg" // Assuming assets folder is at root
+                  src="/assets/img/azizi/10.JPG" // Assuming assets folder is at root
                   alt="Blog Image"
                   className="responsive-img absolute inset-0 w-full rounded-xl h-full object-cover object-center"
                 />
@@ -301,7 +301,7 @@ export default function AziziMina() {
                   <div className="position-relative">
                     <div className="line-shape" />
                     <img
-                      src="assets/img/azizi/10.jpg"
+                      src="assets/img/azizi/10.JPG"
                       className="img-fluid rounded-3 position-relative"
                       alt=""
                     />
@@ -312,7 +312,7 @@ export default function AziziMina() {
                     {/* Image */}
                     <div className="col-12">
                       <img
-                        src="assets/img/azizi/8.jpg"
+                        src="assets/img/azizi/8.JPG"
                         className="img-fluid rounded-3"
                         alt=""
                       />
@@ -320,7 +320,7 @@ export default function AziziMina() {
                     {/* Image */}
                     <div className="col-12">
                       <img
-                        src="assets/img/azizi/11.jpg"
+                        src="assets/img/azizi/11.JPG"
                         className="img-fluid rounded-3"
                         alt=""
                       />

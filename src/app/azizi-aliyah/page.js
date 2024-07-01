@@ -303,7 +303,7 @@ export default function AziziAliyah() {
                   <div className="position-relative">
                     <div className="line-shape" />
                     <img
-                      src="assets/img/azizi/10.jpg"
+                      src="assets/img/azizi/10.JPG"
                       className="img-fluid rounded-3 position-relative"
                       alt=""
                     />
@@ -314,7 +314,7 @@ export default function AziziAliyah() {
                     {/* Image */}
                     <div className="col-12">
                       <img
-                        src="assets/img/azizi/8.jpg"
+                        src="assets/img/azizi/8.JPG"
                         className="img-fluid rounded-3"
                         alt=""
                       />
@@ -322,7 +322,7 @@ export default function AziziAliyah() {
                     {/* Image */}
                     <div className="col-12">
                       <img
-                        src="assets/img/azizi/11.jpg"
+                        src="assets/img/azizi/11.JPG"
                         className="img-fluid rounded-3"
                         alt=""
                       />
