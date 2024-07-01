@@ -47,7 +47,7 @@ export default function AziziAliyah() {
       {/* Start Page Header */}
       <div className="blog-header position-relative text-white">
         <img
-          src="assets/img/azizi/7.jpg"
+          src="assets/img/azizi/4.JPG"
           alt=""
           className="h-100 object-fit-cover position-absolute w-100 top-0 left-0"
         />
@@ -129,7 +129,7 @@ export default function AziziAliyah() {
             {/* Start Subtitle */}
             <div className="bg-[#DAB852] d-inline-block  mb-3 rounded-pill section-header__subtitle text-capitalize text-gray-900">
               <span className="font-bold text-xl">
-                Amenities You Get with Azizi Mina
+                Amenities You Get with Azizi Aliyah
               </span>
             </div>
             {/* /. End Subtitle */}
@@ -142,14 +142,14 @@ export default function AziziAliyah() {
         <div className="flex flex-col md:flex-row overflow-hidden">
           <div className="md:w-1/2 h-64 md:h-auto relative">
             <img
-              src="/assets/img/azizi/10.jpg" // Assuming assets folder is at root
+              src="/assets/img/azizi/9.JPG" // Assuming assets folder is at root
               alt="Blog Image"
               className="responsive-img absolute inset-0 w-full rounded-xl h-full object-cover object-center"
             />
           </div>
           <div className="md:w-1/2 p-6 flex flex-col justify-center">
             <p className="text-gray-700 mb-4">
-              Azizi Mina is designed in a way that attracts every type of
+              Azizi Aliyah is designed in a way that attracts every type of
               lifestyle. With world-class amenities and facilities available
               right at your door and in your community, you get a premium chance
               to live a luxurious lifestyle in the most prestigious location,
@@ -269,7 +269,7 @@ export default function AziziAliyah() {
               </div>
               <div className="md:w-1/2 h-64 md:h-auto relative">
                 <img
-                  src="/assets/img/azizi/10.jpg" // Assuming assets folder is at root
+                  src="/assets/img/azizi/10.JPG" // Assuming assets folder is at root
                   alt="Blog Image"
                   className="responsive-img absolute inset-0 w-full rounded-xl h-full object-cover object-center"
                 />
