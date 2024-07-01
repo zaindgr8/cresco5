@@ -140,7 +140,7 @@ export default function AziziMina() {
         <div className="flex flex-col md:flex-row overflow-hidden">
           <div className="md:w-1/2 h-64 md:h-auto relative">
             <img
-              src="/assets/img/azizi/10.jpg" // Assuming assets folder is at root
+              src="/assets/img/azizi/10.JPG" // Assuming assets folder is at root
               alt="Blog Image"
               className="responsive-img absolute inset-0 w-full rounded-xl h-full object-cover object-center"
             />
